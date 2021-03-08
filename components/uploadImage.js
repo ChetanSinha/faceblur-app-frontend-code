@@ -41,10 +41,10 @@ const UploadImage = ({ navigation }) => {
     const data = new FormData();
     const tempImageUrlList = ImageUrlList;
     data.append("file", image);
-    data.append("upload_preset", "faceblurApp");
-    data.append("cloud_name", "dut46ysdc");
+    data.append("upload_preset", "YOUR_PRESET_NAME");
+    data.append("cloud_name", "YOUR_USERNAME");
 
-    fetch("https://api.cloudinary.com/v1_1/dut46ysdc/image/upload", {
+    fetch(`https://api.cloudinary.com/v1_1/${cloud_name}/image/upload`, {
       method: "POST",
       body: data,
     })
