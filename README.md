@@ -1,7 +1,7 @@
 # faceblur-app-frontend-code
 This is the frontend part of the face blur app
 
-The Backend part of this app is: https://github.com/ChetanSinha/faceblur-app
+The Backend part of this app is: https://github.com/ChetanSinha/faceblur-app (Private Repository)
 
 After completing the steps mentioned in the backend code repository complete the following steps
 1) Replace the flask_url with the ngrok url
